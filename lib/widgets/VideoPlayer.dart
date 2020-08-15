@@ -33,7 +33,7 @@ class VideoPlayerItem extends StatefulWidget {
 
 class _VideoPlayerItemState extends State<VideoPlayerItem> {
   VideoPlayerController _videoController;
-  bool isShowPlaying = true;
+  bool isShowPlaying = false;
 
   @override
   void initState() {
